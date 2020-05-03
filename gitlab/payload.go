@@ -208,7 +208,7 @@ type Job struct {
 	Manual        bool          `json:"manual"`
 	User          User          `json:"user"`
 	Runner        Runner        `json:"runner"`
-	ArtifactsFile ArtifactsFile `json:"artifactsfile"`
+	ArtifactsFile ArtifactsFile `json:"artifacts_file"`
 }
 
 // Runner represents a runner agent
